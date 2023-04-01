@@ -1,9 +1,9 @@
-import CompanyDetail from "../../components/CompanyDetail"
+import CompanyProfile from "../../components/CompanyProfile"
 
 const Footer = () => {
     return (
         <div>
-            <CompanyDetail />
+            <CompanyProfile />
         </div>
     )
 }
