@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./style.module.css"
-import convertToRupiah from "../../utils/convertToRupiah"
+import convertToRupiah from "../../utils/formatToRupiah"
 import product from './product'
 
 
