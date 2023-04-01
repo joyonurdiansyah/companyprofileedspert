@@ -3,17 +3,17 @@
     flex-direction: row;
     background-color: #152A46;
     height: 530px;
-}
-
-.div-left {
+  }
+  
+  .divLeft {
     width: 50%;
-}
-
-.div-right {
+  }
+  
+  .divRight {
     width: 50%;
-}
-
-.font-header {
+  }
+  
+  .fontHeader {
     padding-top: 80px;
     padding-left: 80px;
     padding-right: 80px;
@@ -24,9 +24,9 @@
     display: flex;
     align-items: center;
     color: white;
-}
-
-.font-content {
+  }
+  
+  .fontContent {
     padding-left: 80px;
     padding-right: 80px;
     font-style: normal;
@@ -34,26 +34,26 @@
     font-size: 16px;
     line-height: 24px;
     color: white;
-}
-
-img {
+  }
+  
+  img {
     position: absolute;
-}
-
-.img-subtract-left {
+  }
+  
+  .imgSubtractLeft {
     width: 280px;
     margin-top: 264.5px;
     margin-left: 140px;
-}
-
-.img-subtract-right {
+  }
+  
+  .imgSubtractRight {
     width: 256px;
     margin-top: 66px;
     margin-left: 320px;
-}
-
-.stack-image-hero {
+  }
+  
+  .stackImageHero {
     z-index: 9;
     margin-top: -16px;
     margin-left: -10px;
-}
+  }

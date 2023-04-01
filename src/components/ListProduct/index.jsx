@@ -1,131 +1,10 @@
 import React from "react"
 import style from "./style.module.css"
 import convertToRupiah from "../../utils/convertToRupiah"
+import product from './product'
+
 
 const ListProduct = () => {
-    const product = [
-        {
-            id: 1,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 2,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 3,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 4,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 5,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 6,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 7,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 8,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 9,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 10,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 11,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-         {
-            id: 12,
-            bootcampType: "Intensive Bootcamp",
-            title: "Programming Laravel",
-            detailTitle: "Getting Started with Laravel 9",
-            batch: "September 2022",
-            mentor: "William Hartono, Farel Prayoga",
-            price: 2060000,
-            discountPrice: 560000
-         },
-     ]
-
     return (
         <>
             <div className="background-color-content">
@@ -138,7 +17,7 @@ const ListProduct = () => {
                                         <img className={style["img-content"]} src={require('../../assets/vector.png')} alt="img-content" />
                                     </div>
                                     <div className={style["div-right"]}>
-                                        <p className={style["font-bootcamp-type"]}>{element.bootcampType}</p>
+                                        <p className={style["font-bootcamp-type"]}>{element.type}</p>
                                         <p className={style["font-title"]}>{element.title}</p>
                                         <p className={style["font-detail-title"]}>({element.detailTitle})</p>
                                     </div>   

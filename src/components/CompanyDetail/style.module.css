@@ -2,31 +2,31 @@
     padding: 60px 0px 0px 80px;
     display: flex;
     flex-direction: row;
-}
-
-.div-left {
+  }
+  
+  .divLeft {
     padding-top: 80px;
     padding-right: 50px;
     width: 40%;
-}
-
-.div-right {
+  }
+  
+  .divRight {
     width: 60%;
-}
-
-.div1 {
+  }
+  
+  .div1 {
     width: 30%;
-}
-
-.div2 {
+  }
+  
+  .div2 {
     width: 30%;
-}
-
-.div3 {
+  }
+  
+  .div3 {
     width: 30%;
-}
-
-.font-text {
+  }
+  
+  .fontText {
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
@@ -34,10 +34,10 @@
     line-height: 23px;
     display: flex;
     align-items: center;
-    color: #A3A3A3;
-}
-
-.font-title {
+    color: #a3a3a3;
+  }
+  
+  .fontTitle {
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
@@ -46,18 +46,18 @@
     display: flex;
     align-items: center;
     color: black;
-}
-
-.font-desc {
+  }
+  
+  .fontDesc {
     margin-top: 10px;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    color: #A3A3A3;
-}
-
-.font-copyright {
+    color: #a3a3a3;
+  }
+  
+  .fontCopyright {
     margin-top: 160px;
     margin-left: 80px;
     font-style: normal;
@@ -66,10 +66,10 @@
     line-height: 23px;
     display: flex;
     align-items: center;
-    color: #A3A3A3;
-}
-
-.img-ellipse1 {
+    color: #a3a3a3;
+  }
+  
+  .imgEllipse1 {
     margin-top: 79px;
-    margin-left: 357px;
-}
+    margin-left: 657px;
+  }
