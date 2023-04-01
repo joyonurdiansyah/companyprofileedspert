@@ -1,4 +1,4 @@
-const convertToRupiah = (angka, prefix) => {
+const formatToRupiah = (angka, prefix) => {
     var angkaString = angka.replace(/[^,\d]/g, '').toString(),
     angkaSplit = angkaString.split(','),
     sisa = angkaSplit[0].length % 3,
@@ -16,4 +16,4 @@ const convertToRupiah = (angka, prefix) => {
 
 }
 
-export default convertToRupiah
+export default formatToRupiah
