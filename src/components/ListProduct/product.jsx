@@ -1,4 +1,4 @@
-const product = [
+const dataProduct = [
     {
         id: 1,
         type: "Intensive Bootcamp",
@@ -122,4 +122,4 @@ const product = [
  ];
 
 
- export default product;
+ export default dataProduct;
